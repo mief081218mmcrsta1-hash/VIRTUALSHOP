@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda virtual</title>
+    <link rel="stylesheet" href="Tienda virtual de Laboratorio de fisica.css">
+</head>
+<body>
+    <header>
+        <h1>Virtual Shop</h1>
+        <p class="centro"><b>Los productos mejores los encontrarás aqui</b></p>
+
+                    <div class="user-actions">
+                <button class="action-btn" onclick="location.href='Virtual shop.html'">Iniciar Sesión</button>
+                <button class="action-btn" onclick="location.href='Virtual shop.html'">Ir a Pagar</button>
+            </div>
+
+        <div class="nav-container">
+<div class="nav-container">
+    <nav>
+
+        <!-- Inicio -->
+        <div class="dropdown">
+            <a href="#" class="nav-link">Inicio</a>
+            <div class="dropdown-content">
+                <a href="Virtual shop.html">Productos</a>
+            </div>
+        </div>
+
+        <!-- Guía -->
+        <div class="dropdown">
+            <a href="#" class="nav-link">Guía</a>
+            <div class="dropdown-content">
+                <a href="Guia.html">Usos</a>
+            </div>
+        </div>
+
+        <!-- Mundo virtual -->
+        <div class="dropdown">
+            <a href="#" class="nav-link">Mundo virtual</a>
+            <div class="dropdown-content">
+                <a href="Mundo virtual.html">Laboratorio</a>
+            </div>
+        </div>
+
+        <!-- Más mundos virtuales -->
+        <div class="dropdown">
+            <a href="#" class="nav-link">Más mundos virtuales</a>
+            <div class="dropdown-content">
+                <a href="Eco-SistemadelaLuna.html">Eco-Sistema de la Luna</a>
+                <a href="LaCiudaddelosSueños.html">La Ciudad de los Sueños</a>
+                <a href="MuseodelaMemoria.html">El Museo de la Memoria</a>
+                <a href="FabricadelaCreatividad.html">La Fábrica de la Creatividad</a>
+            </div>
+        </div>
+
+    </nav>
+</div>
+
+    </header>
+
+<article>
+    <section class="productos">
+
+        <article class="producto">
+            <img src="IMAGENES/balanzadigital.jpg" alt="Balanza digital">
+            <h2>Balanza Digital</h2>
+            <p>Balanza de precisión para medir masa en prácticas de laboratorio.</p>
+            <span class="precio">$320</span>
+            <button>Añadir al carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="IMAGENES/dinamometro.jpg" alt="Dinamómetro">
+            <h2>Dinamómetro</h2>
+            <p>Instrumento para medir fuerzas y peso en experimentos físicos.</p>
+            <span class="precio">$140</span>
+            <button>Añadir al carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="IMAGENES/fuentealimentacion.jpg" alt="Fuente de alimentación">
+            <h2>Fuente de Alimentación</h2>
+            <p>Fuente regulable para circuitos eléctricos y prácticas de electricidad.</p>
+            <span class="precio">$450</span>
+            <button>Añadir al carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="IMAGENES/resistenciaskit.jpg" alt="Kit de resistencias">
+            <h2>Kit de Resistencias</h2>
+            <p>Juego de resistencias para armar circuitos eléctricos básicos.</p>
+            <span class="precio">$110</span>
+            <button>Añadir al carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="IMAGENES/soporteuniversal.jpg" alt="Soporte universal">
+            <h2>Soporte Universal</h2>
+            <p>Soporte metálico para montar experimentos y materiales.</p>
+            <span class="precio">$230</span>
+            <button>Añadir al carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="IMAGENES/bobinaelectromagnetica.jpg" alt="Bobina electromagnética">
+            <h2>Bobina Electromagnética</h2>
+            <p>Bobina para experimentos de magnetismo e inducción eléctrica.</p>
+            <span class="precio">$190</span>
+            <button>Añadir al carrito</button>
+        </article>
+
+    </section>
+
+
+        <!-- Sección de Inicio de Sesión -->
+        <section id="login" class="login-section">
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <div class="form-group">
+                    <label for="usuario">Usuario o Correo:</label>
+                    <input type="text" id="usuario" placeholder="Ingresa tu usuario">
+                </div>
+                <div class="form-group">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" placeholder="Ingresa tu contraseña">
+                </div>
+                <button type="submit" class="action-btn">Ingresar</button>
+            </form>
+        </section>
+
+        <section id="pago" class="pago-section">
+            <h2>Proceso de Pago</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre-tarjeta">Nombre en la Tarjeta:</label>
+                    <input type="text" id="nombre-tarjeta" placeholder="Nombre completo">
+                </div>
+                <div class="form-group">
+                    <label for="num-tarjeta">Número de Tarjeta:</label>
+                    <input type="text" id="num-tarjeta" placeholder="1234 5678 9012 3456">
+                </div>
+                <div class="form-group">
+                    <label for="fecha-venc">Fecha de Vencimiento:</label>
+                    <input type="text" id="fecha-venc" placeholder="MM/AA">
+                </div>
+                <button type="submit" class="action-btn">Finalizar Pago</button>
+            </form>
+        </section>
+    </article>
+
+    <footer>
+        <p class="centro">&copy; 2025 LabFísica - Todos los derechos reservados >:3</p>
+    </footer>
+</body>
+</html>
